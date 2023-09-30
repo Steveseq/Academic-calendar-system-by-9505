@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+#calendar {
+  border: 1px solid #922b2b;
+  padding: 20px;
+  margin: 20px;
+}
+
+#admin-controls {
+  border: 1px solid #a92222;
+  padding: 20px;
+  margin: 20px;
+  color: white;
+}
+
+button {
+  margin: 7px;
+  background-color: aqua;
+  border-radius: 7px;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  font-family: "Poppins", serif;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgb(159, 132, 144) 0%,
+    rgb(181, 42, 42) 100%
+  );
+}
